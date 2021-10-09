@@ -26,12 +26,11 @@
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
                 </div>
-                <div class="col">
+                <div class="col align-self-center">
                     <a role="button" data-toggle="modal" data-target="#reserveModal" class="btn btn-info">
                         Reserve a Campsite
                     </a>
                 </div>
-
             </div>
         </div>
     </header>
@@ -45,7 +44,7 @@
                 <div class="modal-body">
                     <div class="continer-fluid">
                         <form action="">
-                            <div class="row">
+                            <div class="row form-group">
                                 <label for="numCampers" class="col-form-label col-sm-6">Number of
                                     Campers</label>
                                 <div class="col">
@@ -60,7 +59,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row form-group">
                                 <label for="numCampers" class="col-sm-6 col-form-label">Date</label>
                                 <div class="col-sm-6">
                                     <input name="date" id="date" type="date" class="form-control"
@@ -68,7 +67,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row form-group">
                                 <label for="siteType" class="col-sm-6 col-form-label">Campsite Type</label>
                                 <div class="col-2 btn btn-group btn-group-toggle" data-toggle="buttons">
                                 <label class="btn btn-success active">
@@ -79,7 +78,7 @@
                                   </label>
                                 </div>
                             </div>
-                            <div class="form-row">
+                            <div class="row form-group">
                                 <button type="button" class="btn btn-seconday btn-sm"
                                     data-dismiss="modal">Cancel</button>
                                 <button type="submit" class="btn btn-primary btn-sm">Submit</button>
